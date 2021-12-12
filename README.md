@@ -7,10 +7,10 @@ js_size("1024");
 </script>
 
 # php Usage
-include("php_file_size.php");
-$file_size="1000000";
-$folder_size="1000000";
-echo prettyfilesize($file_size);/*all files  maxout at TiB*/
-echo pfz("1000000000");/*all other numbers  maxout at TiB*/
-echo prettyfoldersize($folder_size);/*For Folders only  maxout at TiB*/
-can be manually extend TiB to ZiB
+include("php_file_size.php"); <br />
+$file_size="1000000"; <br />
+$folder_size="1000000"; <br />
+echo prettyfilesize($file_size);/*all files  maxout at TiB*/ <br />
+echo pfz("1000000000");/*all other numbers  maxout at TiB*/ <br />
+echo prettyfoldersize($folder_size);/*For Folders only  maxout at TiB*/ <br />
+can be manually extend TiB to ZiB <br />
