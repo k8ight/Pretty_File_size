@@ -1,7 +1,7 @@
 # Pretty_File_Size
 Show Bytes in KiB MiB GiB TiB or Extended manually to ZiB Using Javascript, jQuary or PHP.
 
-# javascript Usage
+# javascript & jQuary Usage
 <script src="js_pretty_size.js">
 js_size("1024");
 </script>
