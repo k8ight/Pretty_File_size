@@ -14,13 +14,13 @@ $siz = 0;
 		 	if ($siz < 1024) {
       $size=$siz . ' Byte';
     } elseif ($siz < 1048576) {
-      $size=round($siz / 1024, 2) . ' KB';
+      $size=round($siz / 1024, 2) . ' KiB';
     } elseif ($siz < 1073741824) {
-      $size=round($siz / 1048576, 2) . ' MB';
+      $size=round($siz / 1048576, 2) . ' MiB';
     } elseif ($siz < 1099511627776) {
-     $size=round($siz/ 1073741824, 2) . ' GB';
+     $size=round($siz/ 1073741824, 2) . ' GiB';
     } else {
-		$size=round($siz / 1099511627776, 2) . ' TB';
+		$size=round($siz / 1099511627776, 2) . ' TiB';
     }
 	
 	return $size;
@@ -30,13 +30,13 @@ function prettyfilesize($file){
 	if ($siz < 1024) {
       $size=$siz . ' Byte';
     } elseif ($siz < 1048576) {
-      $size=round($siz / 1024, 2) . ' KB';
+      $size=round($siz / 1024, 2) . ' KiB';
     } elseif ($siz < 1073741824) {
-      $size=round($siz / 1048576, 2) . ' MB';
+      $size=round($siz / 1048576, 2) . ' MiB';
     } elseif ($siz < 1099511627776) {
-     $size=round($siz/ 1073741824, 2) . ' GB';
+     $size=round($siz/ 1073741824, 2) . ' GiB';
     } else {
-		$size=round($siz / 1099511627776, 2) . ' TB';
+		$size=round($siz / 1099511627776, 2) . ' TiB';
     }
 	
 	return $size;
@@ -46,11 +46,11 @@ function pfs($siz){
 	if ($siz < 1024) {
       $size=$siz . ' Byte';
     } elseif ($siz < 1048576) {
-      $size=round($siz / 1024, 2) . ' KB';
+      $size=round($siz / 1024, 2) . ' KiB';
     } elseif ($siz < 1073741824) {
-      $size=round($siz / 1048576, 2) . ' MB';
+      $size=round($siz / 1048576, 2) . ' MiB';
     } elseif ($siz < 1099511627776) {
-     $size=round($siz/ 1073741824, 2) . ' GB';
+     $size=round($siz/ 1073741824, 2) . ' GiB';
     } else {
 		$size=round($siz / 1099511627776, 2) . ' TB';
     }
