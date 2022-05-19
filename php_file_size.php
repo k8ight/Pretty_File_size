@@ -1,5 +1,5 @@
 <?php
-/*RESTRICTED EDITING*/
+/*GPL Release NOT COPYRIGHT ALLOWED*/
 function prettyfoldersize ($dir)
 {
     $siz = 0;
@@ -22,5 +22,5 @@ function pfs($fileSizeInBytes) {
   } while ($fileSizeInBytes > 1024);
  return  round($fileSizeInBytes,2).$byteUnits[$i];
 }
-/*RESTRICTED EDITING*/
+/*GPL Release NOT COPYRIGHT ALLOWED*/
 ?>
