@@ -1,6 +1,6 @@
 
 /*GPL Release NO COPYRIGHT ALLOWED*/
-function pfz(fileSizeInBytes) {
+function pfs(fileSizeInBytes) {
     var i = -1;
     var byteUnits = [' KiB', ' MiB', ' GiB', ' TiB', 'PiB', 'EiB', 'ZiB', 'YiB'];
     do {
@@ -10,7 +10,7 @@ function pfz(fileSizeInBytes) {
 
     return Math.max(fileSizeInBytes, 0.1).toFixed(1) + byteUnits[i];
 };
-function pfz_bits(fileSizeInBytes) {
+function pfs_bits(fileSizeInBytes) {
     var i = -1;
     var byteUnits = [' KB', ' MB', ' GB', ' TB', 'PB', 'EB', 'ZB', 'YB'];
     do {
