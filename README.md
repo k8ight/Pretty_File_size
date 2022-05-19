@@ -8,9 +8,11 @@ js_size("1024");
 
 # php Usage
 include("php_file_size.php"); <br />
-$file_size="1000000"; <br />
-$folder_size="1000000"; <br />
-echo prettyfilesize($file_size);/*all files  maxout at TiB*/ <br />
-echo pfz("1000000000");/*all other numbers  maxout at TiB*/ <br />
-echo prettyfoldersize($folder_size);/*For Folders only  maxout at TiB*/ <br />
-can be manually extend TiB to ZiB <br />
+$file_size="1000000"; <br />/*only numaric supported */
+$folder="./data"; <br />/*only full folder path relative to current working folder*/
+
+echo pfs("4155225465465");/*all other numbers  maxout at YiB*/ <br />
+echo prettyfoldersize($folder_size);/*For Folders only  maxout at YiB*/ <br />
+FINAL RELEASE NO MODIFICATION REQUIRED <br />
+
+# GPL Release NO COPYRIGHT ALLOWED
