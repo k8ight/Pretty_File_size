@@ -16,12 +16,12 @@ $folder="./data"; /*only full folder path relative to current working folder*/<b
 <b>Converting in BYTES(1024)</b><br />
 
 echo pfs("4155225465465");/*all other numbers  maxout at YiB*/ <br />
-echo pfs_fol(<folder name>);/*For Folders only  maxout at YiB*/ <br />
+echo pfs_fol(folder name);/*For Folders only  maxout at YiB*/ <br />
   
 <b>Converting in BITS(1000)</b><br />
   
 echo pfs_bits("4155225465465");/*all other numbers  maxout at YB*/ <br />
-echo pfs_fol_bits(<folder name>);/*For Folders only  maxout at YB*/ <br />
+echo pfs_fol_bits(folder name);/*For Folders only  maxout at YB*/ <br />
 
 
 
