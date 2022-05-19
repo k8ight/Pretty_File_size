@@ -1,6 +1,6 @@
 <?php
 /*GPL Release NO COPYRIGHT ALLOWED*/
-function prettyfoldersize ($dir)
+function pfs_fol ($dir)
 {
     $siz = 0;
 
