@@ -12,7 +12,7 @@ $file_size="1000000"; /*only numaric supported */<br />
 $folder="./data"; /*only full folder path relative to current working folder*/<br />
 
 echo pfs("4155225465465");/*all other numbers  maxout at YiB*/ <br />
-echo prettyfoldersize($folder_size);/*For Folders only  maxout at YiB*/ <br />
+echo pfs_fol($folder_size);/*For Folders only  maxout at YiB*/ <br />
 FINAL RELEASE NO MODIFICATION REQUIRED <br />
 
 # GPL Release NO COPYRIGHT ALLOWED
