@@ -8,8 +8,8 @@ js_size("1024");
 
 # php Usage
 include("php_file_size.php"); <br />
-$file_size="1000000"; <br />/*only numaric supported */
-$folder="./data"; <br />/*only full folder path relative to current working folder*/
+$file_size="1000000"; /*only numaric supported */<br />
+$folder="./data"; /*only full folder path relative to current working folder*/<br />
 
 echo pfs("4155225465465");/*all other numbers  maxout at YiB*/ <br />
 echo prettyfoldersize($folder_size);/*For Folders only  maxout at YiB*/ <br />
