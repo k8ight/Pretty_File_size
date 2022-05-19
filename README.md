@@ -3,18 +3,18 @@ Show Bytes in KiB MiB GiB TiB or Extended manually to ZiB Using Javascript, jQua
                             
 # javascript & jQuary Usage
 <script src="js_pretty_size.js">
-js_size("1024");
-js_size_bits("1000");
+pfs("1024");
+pfs_bits("1000");
 </script>
 
 # php Usage
 include("php_file_size.php"); <br />
 $file_size="1000000"; /*only numaric supported */<br />
 $folder="./data"; /*only full folder path relative to current working folder*/<br />
-
+<b>Converting in BYTES(1024)</b><br />
 echo pfs("4155225465465");/*all other numbers  maxout at YiB*/ <br />
 echo pfs_fol(<folder name>);/*For Folders only  maxout at YiB*/ <br />
-
+<b>Converting in BITS(1000)</b><br />
 echo pfs_bits("4155225465465");/*all other numbers  maxout at YB*/ <br />
 echo pfs_fol_bits(<folder name>);/*For Folders only  maxout at YB*/ <br />
 
